@@ -4,7 +4,7 @@
 - **COURSE INFORMATION: CSN400-NDD**
 - **STUDENT’S NAME: Md Saiful Islam**
 - **STUDENT'S NUMBER: 100297209**
-- **GITHUB USER_ID: msislam40-myseneca** 
+- **GITHUB USER_ID: 100297209-myseneca** 
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ### Table of Contents
