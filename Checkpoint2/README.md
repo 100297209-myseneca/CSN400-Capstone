@@ -54,8 +54,17 @@ Date:   Tue Jan 17 20:42:08 2023 -0500
 
 ### Part B: Inspecting Local Repo with git status and git log.
 
-How do these two commands differ?
+```
+Git Status is a helpful command that we could use to learn more about the branch we're working on right now.also:
 
+
+1.If this branch is the most recent,
+2.Any  tracked, or untracked files
+3.Any newly created, updated, or removed files
+4.Push or pull also if there is anything to commit.
+
+Git log will show the current  branch's commit history.We can have thousands of commit history.
+```
 
 ### Part C: Creating and Merging Branches.
 
@@ -99,3 +108,9 @@ Date:   Thu Jan 26 21:42:36 2023 -0500
 ```
 
 ### Part D: Git Branching Strategy Review Questions.
+
+```
+1.The main branch in a repository is often referred to as the primary or default  branch.Before features are integrated into the main branch, developers work on them on a different branch called the develop branch.
+2.Feature, hotfix, and release branches are the three supporting branches. Prior to being merged into the main branch, a specific feature is tested on a feature branch. Without having to wait or wastime time for the future releases, a problem on the main branch may be promptly fixed using a hotfix branch. Before being merged into the main branch, a release is prepared on a release branch.
+3.A different branch should be created for each release, and each branch should be tested before being merged into the main branch.Once release branches have been merged with the main branch, they should be deleted.
+
