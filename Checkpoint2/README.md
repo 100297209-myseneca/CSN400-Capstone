@@ -9,13 +9,15 @@
 ---
 
 ### Table of Contents
-1. [Part A - Adding Files - Local Repo Workflow](#part-a-adding files-local-repo-workflow)
-2. [Part B - Inspecting Local Repo with `git status` and `git log`](#[part-B-inspecting-local-repo-with-`git status`-and-`git log`)
-3. [Part C - Creating & Merging Branches](#part-C)
-4. [Part D - Git Branching Strategy Review Questions](#part-D)
 
 
-## Part A - Adding Files - Local Repo Workflow
+1. [Part A: Adding files, local repo workflow.](#part-a-adding-files-local-repo-workflow)
+2. [Part B: Inspecting local repo with git status and git log](#part-b-inspecting-local-repo-with-git-status-and-git-log)
+3. [Part C: Creating and Merging branches.](#part-c-creating-and-merging-branches)
+4. [Part D: Git branching strategy review questions.](#part-d-git-branching-strategy-review-questions)
+
+
+### Part A: adding files, local repo workflow.
 
 ```
 $ git log -n 5
@@ -50,12 +52,12 @@ Date:   Tue Jan 17 20:42:08 2023 -0500
     Update README.md
 ```
 
-## Part B - Inspecting Local Repo with `git status` and `git log`
+### Part B: Inspecting Local Repo with git status and git log.
 
 How do these two commands differ?
 
 
-### Part C - Creating & Merging Branches
+### Part C: Creating and Merging Branches.
 
 #### Main Branch 
 
@@ -96,4 +98,4 @@ Date:   Thu Jan 26 21:42:36 2023 -0500
     adds CP2/README.md
 ```
 
-## Part D - Git Branching Strategy Review Questions
+### Part D: Git Branching Strategy Review Questions.
