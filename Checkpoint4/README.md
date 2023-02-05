@@ -15,3 +15,8 @@
 ### Part A
 ![image](https://user-images.githubusercontent.com/122843163/216805640-76866125-8234-48e9-95ef-9eae7649874a.png)
 
+### Part B - Creating Resources in Azure Portal
+
+### Part C - Working in Azure CLI Bash
+
+### Part D - Network Review Questions
