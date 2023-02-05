@@ -1,0 +1,18 @@
+[
+  {
+    "addressPrefix": "10.67.61.0/24",
+    "delegations": [],
+    "etag": "W/\"6a410226-fb6e-4077-b6ae-f7a63d495317\"",
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846407/providers/Microsoft.Network/virtualNetworks/Student-846407-vnet/subnets/Virtual-Desktop-Client",
+    "name": "Virtual-Desktop-Client",
+    "privateEndpointNetworkPolicies": "Enabled",
+    "privateLinkServiceNetworkPolicies": "Enabled",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "Student-RG-846407",
+    "routeTable": {
+      "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846407/providers/Microsoft.Network/routeTables/RT-118",
+      "resourceGroup": "Student-RG-846407"
+    },
+    "type": "Microsoft.Network/virtualNetworks/subnets"
+  }
+]
