@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "notes": "Red Hat Enterprise Linux 8.1 (LVM)\t",
+        "ownerObjectId": "b3b2a232-b657-4eb1-a652-5444b92e82b1",
+        "ownerUserPrincipalName": "odl_user_846407@seneca-csn400ndd.cloudlabs.ai",
+        "createdByUserId": "100320026C65D219",
+        "createdByUser": "odl_user_846407@seneca-csn400ndd.cloudlabs.ai",
+        "createdDate": "2023-03-09T03:22:07.5423659+00:00",
+        "computeId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/student-rg-846407/providers/Microsoft.Compute/virtualMachines/LS-118",
+        "osType": "Linux",
+        "size": "Standard_B2s",
+        "userName": "msislam40",
+        "isAuthenticationWithSshKey": false,
+        "labSubnetName": "SN1",
+        "labVirtualNetworkId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846407/providers/microsoft.devtestlab/labs/csn400-118/virtualnetworks/server-118",
+        "disallowPublicIpAddress": true,
+        "artifactDeploymentStatus": {
+            "artifactsApplied": 0,
+            "totalArtifacts": 0
+        },
+        "galleryImageReference": {
+            "offer": "RHEL",
+            "publisher": "RedHat",
+            "sku": "8.1",
+            "osType": "Linux",
+            "version": "latest"
+        },
+        "networkInterface": {},
+        "allowClaim": false,
+        "storageType": "Standard",
+        "virtualMachineCreationSource": "FromGalleryImage",
+        "lastKnownPowerState": "Running",
+        "provisioningState": "Succeeded",
+        "uniqueIdentifier": "7eeaad7a-4180-45ee-b53c-ac54730d83ae"
+    },
+    "location": "canadaeast",
+    "tags": {
+        "DeploymentId": "846407",
+        "LaunchId": "28962",
+        "LaunchType": "ON_DEMAND_LAB",
+        "TemplateId": "4678",
+        "TenantId": "353"
+    },
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846407/providers/microsoft.devtestlab/labs/csn400-118/virtualmachines/ls-118",
+    "name": "LS-118",
+    "type": "Microsoft.DevTestLab/labs/virtualMachines"
+}
