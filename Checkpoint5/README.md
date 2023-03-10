@@ -1,10 +1,10 @@
 # Checkpoint5 Submission
 
-- **COURSE INFORMATION: xxx**
-- **STUDENT’S NAME: xxx**
-- **STUDENT'S NUMBER: xxx**
-- **GITHUB USER ID: xxx**
-- **TEACHER’S NAME: xxx**
+- **COURSE INFORMATION: CSN400NDD**
+- **STUDENT’S NAME: Md Saiful Islam**
+- **STUDENT'S NUMBER: 100297209**
+- **GITHUB USER ID: 100297209-myseneca**
+- **TEACHER’S NAME: Atoosa Nasiri**
  
 ### Table of Contents
 
@@ -13,13 +13,21 @@
 3. [Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images](#header3)
 4. [Part D - Azure Cost Analysis Charts](#header4)
 
+### Part A - Creating Resources in Azure Portal
+
 
 ![Creating DevTest lab](https://user-images.githubusercontent.com/122843163/224226084-076bf1be-fb57-4acc-855a-e4c0804882cc.png)
 
+![parta3](https://user-images.githubusercontent.com/122843163/224264474-c3f44a43-2a0c-4e84-9e61-ede3aeb28d6a.png)
 
 
+![parta4](https://user-images.githubusercontent.com/122843163/224264488-40e77c32-1170-4afe-ac4c-3624fbd3f15c.png)
 
-Part B
+![parta2](https://user-images.githubusercontent.com/122843163/224264461-48a37aea-bde3-4682-be2d-787c96b1ca43.png)
+
+![parta5](https://user-images.githubusercontent.com/122843163/224264496-1dae257b-2dfb-4e3d-8352-d1ef129f7780.png)
+
+### Part B - Working with `az lab` CLI command
 
 https://github.com/100297209-myseneca/CSN400-Capstone/blob/main/Checkpoint5/custom_images.tbl
 
@@ -55,7 +63,7 @@ https://github.com/100297209-myseneca/CSN400-Capstone/blob/main/Checkpoint5/%C2%
   },
 ```
 
-Part C-
+### Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images
 
 
 
@@ -63,7 +71,7 @@ Part C-
 
 
 
-Part D:
+### Part D - Azure Cost Analysis Charts
 
 
 
