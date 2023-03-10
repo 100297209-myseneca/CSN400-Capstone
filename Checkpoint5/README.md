@@ -59,7 +59,7 @@ Part C-
 
 
 
-![partc](https://user-images.githubusercontent.com/122843163/224227561-3c9203a7-6fb7-48b7-a269-aeed9fc817d5.png
+![partc](https://user-images.githubusercontent.com/122843163/224227561-3c9203a7-6fb7-48b7-a269-aeed9fc817d5.png)
 
 
 
