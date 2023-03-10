@@ -14,4 +14,4 @@
 4. [Part D - Azure Cost Analysis Charts](#header4)
 
 
-Part A
+![Creating DevTest lab](https://user-images.githubusercontent.com/122843163/224226084-076bf1be-fb57-4acc-855a-e4c0804882cc.png)
