@@ -27,8 +27,10 @@
 
 ![parta5](https://user-images.githubusercontent.com/122843163/224264496-1dae257b-2dfb-4e3d-8352-d1ef129f7780.png)
 
+
 ### Part B - Working with `az lab` CLI command
 
+```
 https://github.com/100297209-myseneca/CSN400-Capstone/blob/main/Checkpoint5/custom_images.tbl
 
 
@@ -40,6 +42,7 @@ https://github.com/100297209-myseneca/CSN400-Capstone/blob/main/Checkpoint5/lab_
 
 
 https://github.com/100297209-myseneca/CSN400-Capstone/blob/main/Checkpoint5/%C2%A0lab_vm.tbl
+```
 
 
 
