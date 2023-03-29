@@ -108,22 +108,27 @@ Mar 23 05:29:23 LR-118 kernel: TO_DROP_FORWARDIN=eth0 OUT=eth0 MAC=00:0d:3a:f4:0
 ### Part D - Azure Cost Analysis Charts
 ***1. Screenshot of resources daily costs for last 7 days***
 
+![1](https://user-images.githubusercontent.com/122843163/228472459-67cb43b1-a94a-4c9a-a5c9-ed794d821487.png)
 
-***2. Scrrenshot of Service daily costs for last 7 days***
-![2](https://user-images.githubusercontent.com/123032283/226249707-7a7e2035-3da2-4efb-b154-b84b8263f3b7.jpg)
+***2. Screenshot of Service daily costs for last 7 days***
+
+![2](https://user-images.githubusercontent.com/122843163/228472570-cc2f5a38-d40d-47aa-8e9a-d7dcc592a25f.png)
 
 ***3. Screenshot of Resource accumulated costs last 7 days*** 
-![3](https://user-images.githubusercontent.com/123032283/226249770-4f87b7b9-8d74-4cf0-8283-ccfd12693c1b.jpg)
+
+![3](https://user-images.githubusercontent.com/122843163/228472613-4dc8bb0f-eb42-4acf-a173-2a62eb077678.png)
 
 ***4. Screenshot of Service Name last month pie chart***
-![4](https://user-images.githubusercontent.com/123032283/226249803-d4621be4-0f8a-44b1-9435-7e118ee8b511.jpg)
+
+![4](https://user-images.githubusercontent.com/122843163/228472660-202aeeb3-2ed6-4f2e-adf4-b4ace5740759.png)
 
 ***5. Screenshot of Service Family last month pie chart***
-![5](https://user-images.githubusercontent.com/123032283/226249841-d3a0716c-2ad3-4289-9751-8aa08b6bea3e.jpg)
+
+![5](https://user-images.githubusercontent.com/122843163/228472680-b7bf9548-9218-4489-a5c5-6bcc785d4cb5.png)
 
 ***6. Screenshot of Product last month pie chart***
-![6](https://user-images.githubusercontent.com/123032283/226249872-0a7dbe3f-3b44-440f-969b-a7de5b97c521.jpg)
 
+![6](https://user-images.githubusercontent.com/122843163/228472710-08b7c6d2-63eb-4d74-9d60-acf5edcbaeec.png)
 
 
 
