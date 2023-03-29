@@ -1,1 +1,35 @@
 
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination
+1      668 45491 LOG        tcp  --  *      *       10.67.61.0/24        192.168.118.36       tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-118 - "
+2        3   156 ACCEPT     tcp  --  *      *       10.67.61.0/24        0.0.0.0/0            state NEW tcp dpt:22
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination
+1       41  5261 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.37        tcp dpt:22 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "SSH FORWARD LS-118 - "
+2       42  5301 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.32/27     tcp dpt:22
+3       37  5329 ACCEPT     tcp  --  *      *       172.17.118.32/27     10.67.61.0/24        tcp spt:22
+4      320 12800 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:3389 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "RDP FORWARD WS-118 - "
+5      320 12800 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.32/27     tcp dpt:3389
+6      320 29120 ACCEPT     tcp  --  *      *       172.17.118.32/27     10.67.61.0/24        tcp spt:3389
+7        0     0 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:53 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "DNS TCP FORWARD - "
+8      109  6986 LOG        udp  --  *      *       10.67.61.0/24        172.17.118.36        udp dpt:53 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "DNS UDP FORWARD - "
+9        0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            172.17.118.36        tcp dpt:53
+10       0     0 ACCEPT     tcp  --  *      *       172.17.118.36        0.0.0.0/0            tcp spt:53
+11     123  7870 ACCEPT     udp  --  *      *       0.0.0.0/0            172.17.118.36        udp dpt:53
+12     117 17926 ACCEPT     udp  --  *      *       172.17.118.36        0.0.0.0/0            udp spt:53
+13      31  2837 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.37        tcp dpt:3306 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "MySQL FORWARD LS-118 - "
+14      33  3046 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.37        tcp dpt:3306
+15      33 12221 ACCEPT     tcp  --  *      *       172.17.118.37        10.67.61.0/24        tcp spt:3306
+16      12  1426 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.37        tcp dpt:80 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD LS-118 - "
+17      12  1426 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.37        tcp dpt:80
+18      10  1067 ACCEPT     tcp  --  *      *       172.17.118.37        10.67.61.0/24        tcp spt:80
+19      10   968 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:80 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD WS-118 - "
+20      10   968 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:80
+21      11   796 ACCEPT     tcp  --  *      *       172.17.118.36        10.67.61.0/24        tcp spt:80
+22      38  1808 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:21 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-"
+23      56  2680 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpt:21
+24      60  4207 ACCEPT     tcp  --  *      *       172.17.118.36        10.67.61.0/24        tcp spt:21
+25      20   872 LOG        tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpts:50000:51000 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-118"
+26      24  1032 ACCEPT     tcp  --  *      *       10.67.61.0/24        172.17.118.36        tcp dpts:50000:51000
+27      21  1649 ACCEPT     tcp  --  *      *       172.17.118.36        10.67.61.0/24        tcp spts:50000:51000
