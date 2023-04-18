@@ -80,15 +80,25 @@ Apr 15 06:19:31 LR-118 kernel: NAT-log-ssh-masqueradingIN=eth0 OUT=eth0 MAC=00:2
 ### Part D - Azure Cost Analysis Charts
 
 ***1. Screenshot of resources daily costs for last 7 days***
+![1](https://user-images.githubusercontent.com/122843163/232660924-cf1c006a-0834-42be-ac0f-216d04e6dd50.png)
 
 ***2. Scrrenshot of Service daily costs for last 7 days***
 
+![2](https://user-images.githubusercontent.com/122843163/232660964-a16243f7-2790-4d6e-a06d-f47f4f953e84.png)
+
 ***3. Screenshot of Resource accumulated costs last 7 days*** 
 
+![3](https://user-images.githubusercontent.com/122843163/232660979-af1e8795-d004-4062-99b7-337726e9b312.png)
 ***4. Screenshot of Service Name last month pie chart***
 
+![4](https://user-images.githubusercontent.com/122843163/232661002-d991fa02-d105-44bc-9d36-e483c9499156.png)
+
+
 ***5. Screenshot of Service Family last month pie chart***
+
+![5](https://user-images.githubusercontent.com/122843163/232661012-bb324bc4-f4e2-46a9-b0ae-51d3e411c830.png)
 
 ***6. Screenshot of Product last month pie chart***
 
 
+![6](https://user-images.githubusercontent.com/122843163/232661020-9afccfd9-37a5-434c-8d96-f8bad953a0e1.png)
