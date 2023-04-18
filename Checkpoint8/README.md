@@ -71,14 +71,26 @@ Apr 12 07:35:07 LR-118 kernel: SSH DROP FORWARD LS-118 - IN=eth0 OUT=eth0 MAC=00
 
 #### ***Screenshot of resources daily costs for last 7 days***
 
+![1](https://user-images.githubusercontent.com/122843163/232655826-8c1cbda2-1fc0-4fcb-abfe-493c3c9e0cf1.png)
+
 #### ***Scrrenshot of Service daily costs for last 7 days***
+![2](https://user-images.githubusercontent.com/122843163/232655848-933e6167-35f0-4be8-93b1-c975f2b5324c.png)
 
 #### ***Screenshot of Resource accumulated costs last 7 days*** 
+![3](https://user-images.githubusercontent.com/122843163/232655862-af5edb9c-1758-4bd2-988a-3053a0cf22a1.png)
 
 ### ***Screenshot of Service Name last month pie chart***
+![4](https://user-images.githubusercontent.com/122843163/232655927-07e32b66-cdfc-4485-9b38-b44e41e41f2e.png)
+
+
 
 #### ***Screenshot of Service Family last month pie chart***
+![5](https://user-images.githubusercontent.com/122843163/232655944-f9ba83c7-df5f-4dde-a670-5afdd5fbc50d.png)
+
+
  #### ***Screenshot of Product last month pie chart***
+ 
+![6](https://user-images.githubusercontent.com/122843163/232656004-daa91d0c-83bc-4184-8bfc-1cf0a595242e.png)
 
 
 
